@@ -1,0 +1,74 @@
+* {
+    background-color: black;
+    color: #fff;
+}
+
+.Main_Part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: self-start;
+    align-items: center;
+    gap: 10px;
+}
+
+label {
+    font-size: 18px;
+}
+
+.container {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 300px;
+}
+
+input {
+    border-color: rgb(240, 240, 245);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.button {
+    background-color: rgba(20, 112, 97, 0.521);
+    color: #fff;
+    height: auto;
+    width: 170px;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 30px;
+    font-size: 16px;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#btn1:hover{
+    background-color: rgb(56, 148, 133);
+}
+
+
+.reset {
+    background-color: rgb(252, 18, 18);
+    height: auto;
+    width: 170px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 30px;
+}
+@media (max-width:28.125rem ){
+    .container {
+        text-align: center;
+        margin-top: 20px;
+    }
+    input {
+        border-color: rgb(240, 240, 245);
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        padding: 3px;
+    }
+}
